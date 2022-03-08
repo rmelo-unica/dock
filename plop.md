@@ -9,7 +9,7 @@ Essa documentação demostra como criar um componente no projeto com Plop. O Plo
 
 Para usar o Plop, você precisará certificar-se de instalar de forma global o plop na sua maquina:
 ```
-npm install -G plop
+npm install -g plop
 ```
 
 Após isso, confirma que o seguinte script esteja no arquivo package.json:
@@ -28,13 +28,24 @@ npm run gen [NomeDoComponente]
 ```
 *Se tudo deu certo, foi gerada uma nova pasta destro de components com o [NomeDoComponente].*
 
+** Se der erro e o mesmo for no sentido que o comando é inesistente ou não reconhecido, instale o plop globalmente novamente:
+
+```
+npm install -g plop
+```
+*** Não é possivel ter dois componentes com o mesmo nome, caso [NomeDoComponente] seja repetido os arquivos não serão criados.
+**** Adicionamos validação para nomeação correta dos arquivos, estamos usando o padrão CamelCase. 
+
+
+
+
 
 ### Estrutura da pasta criada com o Plop
 
 ```
 
 [NomeDoComponente]/                    # Root component.
-|- index/                              # Arquivo de exportação geral.
+|- index.tsx                           # Arquivo de exportação geral.
 |- [NomeDoComponente].tsx              # Logica do component.
 |- [NomeDoComponente].stories.tsx      # Configuração dos stories do component para o storybook.
 |- [NomeDoComponente].styled.tsx       # Arquivo de estilização do component com styled do mateial ui.
