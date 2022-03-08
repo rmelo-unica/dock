@@ -50,8 +50,9 @@ npm install -g plop
 |- index.tsx                           # Arquivo de exportação geral.
 |- [NomeDoComponente].tsx              # Logica do component.
 |- [NomeDoComponente].stories.tsx      # Configuração dos stories do component para o storybook.
-|- [NomeDoComponente].styled.tsx       # Arquivo de estilização do component com styled do mateial ui.
-|- [NomeDoComponente].test.tsx         # Arquivo para testes unitários do component..
+|- [NomeDoComponente].styled.ts       # Arquivo de estilização do component com styled do mateial ui.
+|- [NomeDoComponente].test.tsx         # Arquivo para testes unitários do componente.
+|- [NomeDoComponente].type.tsx         # Arquivo de tipagem do componente.
 
 ```
  
