@@ -26,18 +26,20 @@ Abra o terminal no projeto e digite:
 ```
 npm run gen [NomeDoComponente]
 ```
-*Se tudo deu certo, foi gerada uma nova pasta destro de components com o [NomeDoComponente].
 
-*** Se der erro e o mesmo for no sentido que o comando é inesistente ou não reconhecido, instale o plop globalmente novamente:
+
+*Se tudo deu certo, foi gerada uma nova pasta destro de components com o [NomeDoComponente].* 
+
+### Erros comuns
+
+*Se der erro e o mesmo for no sentido que o comando é inesistente ou não reconhecido, instale o plop globalmente novamente:*
 
 ```
 npm install -g plop
 ```
-*** Não é possivel ter dois componentes com o mesmo nome, caso [NomeDoComponente] seja repetido os arquivos não serão criados.
+*Não é possivel ter dois componentes com o mesmo nome, caso [NomeDoComponente] seja repetido os arquivos não serão criados.*
 
-*** Adicionamos validação para nomeação correta dos arquivos, estamos usando o padrão CamelCase. 
-
-
+*Adicionamos validação para nomeação correta dos arquivos, estamos usando o padrão CamelCase.*
 
 
 ### Estrutura da pasta criada com o Plop
