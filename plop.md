@@ -33,12 +33,12 @@ npm run gen [NomeDoComponente]
 
 
 ```
-MyComponent/                    # Root component.
-|- index/        				# Arquivo de exportação geral.
-|- MyComponent.tsx      		# Logica do component.
-|- MyComponent.stories.tsx      # Configuração dos stories do component para o storybook.
-|- MyComponent.styled.tsx 		# Arquivo de estilização do component com styled do mateial ui.
-|- MyComponent.test.tsx			# Arquivo para testes unitários do component..
+[NomeDoComponente]/                # Root component.
+|- index/                      				# Arquivo de exportação geral.
+|- [NomeDoComponente].tsx        		# Logica do component.
+|- [NomeDoComponente].stories.tsx  # Configuração dos stories do component para o storybook.
+|- [NomeDoComponente].styled.tsx 		# Arquivo de estilização do component com styled do mateial ui.
+|- [NomeDoComponente].test.tsx			  # Arquivo para testes unitários do component..
 ```
  
  
