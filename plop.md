@@ -31,15 +31,15 @@ npm run gen [NomeDoComponente]
 
 ### Estrutura da pasta criada com o Plop
 
-
 ```
-[NomeDoComponente]/                # Root component.
-|- index/                      				# Arquivo de exportação geral.
-|- [NomeDoComponente].tsx        		# Logica do component.
-|- [NomeDoComponente].stories.tsx  # Configuração dos stories do component para o storybook.
+[NomeDoComponente]/                    # Root component.
+|- index/        				# Arquivo de exportação geral.
+|- [NomeDoComponente].tsx      		# Logica do component.
+|- [NomeDoComponente].stories.tsx      # Configuração dos stories do component para o storybook.
 |- [NomeDoComponente].styled.tsx 		# Arquivo de estilização do component com styled do mateial ui.
-|- [NomeDoComponente].test.tsx			  # Arquivo para testes unitários do component..
+|- [NomeDoComponente].test.tsx			# Arquivo para testes unitários do component..
 ```
+ 
  
  
 ## Documentação
