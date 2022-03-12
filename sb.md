@@ -1,138 +1,98 @@
 
+# Plop - Geração de componentes
 
-# Storybook - Documentação de componentes
+## Descrição
 
-## Dica de estudo 
-Como estamos falando de uma nova forma de documentação, segue vídeo com tutorial: 
+Essa documentação demostra como criar um componente no projeto com Plop. O Plop é um lib que automatiza o chato trabalho de criar pastas e arquivos para nossos componentes.
 
-https://www.youtube.com/watch?v=5XNRCz7dcyU&list=PLBSn_5nxZ8EcJPGvVAKxO7WT70jcoj40n
+## Criando Components com Plop
+![enter image description here](https://res.cloudinary.com/dgorwmjud/image/upload/v1647124242/Documenta%C3%A7%C3%A3o%20Opti/carbon_3_hobte2.png)
+ </div> 
 
+    npm run gen Nome 
+    # Substituir Nome pelo nome do componente que vai ser criado
     
+    component digite: C || page digite: P
+    # Atualmente temos duas automatizações para criar arquivos, a de componente e a de página, O prompt indica C para geração de Componente e P para geração de página
 
-## Uso
+OBS: O nome deve ser inserido seguindo qualquer uma das seguintes formas: 
 
-Você precisará certificar-se de que as seguintes dependências estejam no package.json do sistema:
+button
 
-```
-        "@storybook/addon-actions": "^6.4.19",
-        "@storybook/addon-essentials": "^6.4.19",
-        "@storybook/addon-interactions": "^6.4.19",
-        "@storybook/addon-links": "^6.4.19",
-        "storybook-addon-material-ui": "^0.9.0-alpha.24",
-        "@storybook/react": "^6.4.19",
-        "@storybook/testing-library": "^0.0.9" 
-```
+Button
 
-Como executar o script
----
+inputText 
 
-Abra o terminal no projeto e digite:
-
-```
-npm run storybook
-```
-
-Se tudo deu certo, você conseguirá abrir o servidor do storybook na porta http://localhost:6006/ 
-
-
- ## Modo de uso
+InputText 
  
-De forma geral, ao rodar o storybook conseguimos codar e estilizar o componente e o mesmo é renderizado automaticamente após o ```ctrl-s```.
+## Por dentro de cada arquivo
 
- ## Implementação
- 
-O storybook possibilita a visualização dos componentes de forma complenta, isso é nele conseguimos renderizar as "n" versões de um botão, se é azul com texto branco, disable, com ou sem ícone e por ai vai.
+  **─ Index.ts**
+  
+O arquivo index é o arquivo mais simples. Aqui, você simplesmente vai exportar o componente e a tipagem do mesmo para que seja mais fácil importar em outros arquivos
+**├─ Name.stories.tsx**
 
- 
-```
-// Importe o componente, dependencias como icones e o ComponentStory do storybook
-    import { ComponentStory } from '@storybook/react';
-    import { BiPlus } from 'react-icons/bi';
-    import { Button } from './Button';
-    
-    
-    export default {
-       title: "Button",
-       argTypes: {      
-// São os args types que darão ao storybook as possibilidades de edição dos nossos componentes.
-          variant: {
-             options: ["primary", "secondary"],
-             control: { type: "radio" },
-          },
-          size: {
-             options: ["sm", "md", "lg"],
-             control: { type: "radio" },
-          },
-          children: {
-             type: "string"
-          },
-          disabled: {
-             type: "boolean",
-             defaultValue: false
-          },
-          onClick: {
-             type: "function"
-          },
-          icon: {
-             type: "function"
-          },
-          iconPosition: {
-             options: ["start", "end"],
-             control: { type: "radio" }
-          }
-       }
-    };
-// A variavel Template armazena todas as caracteristicas que poder ser usadas nos exemplos:
-   const Template: ComponentStory<typeof Button> =
-       ({ variant, children, onClick, disabled, size, icon, iconPosition }) => (
-          <Button
-             variant={variant}
-             onClick={onClick}
-             disabled={disabled}
-             size={size}
-             icon={icon}
-             iconPosition={iconPosition}
-          >
-             {children}
-          </Button>
-       )
- 
-// Para adicionar exemplos no storybook mude os args adicionando valores que temos no Template
-    
-    export const Primary = Template.bind({});
-    Primary.args = {
-       variant: "primary",
-       children: "Primary"
-    };
-    
-    export const Secondary = Template.bind({});
-    Secondary.args = {
-       variant: "secondary",
-       children: "Secondary"
-    }
-    
-    export const WithIconStart = Template.bind({});
-    WithIconStart.args = {
-       variant: "primary",
-       children: "Icon",
-       icon: <BiPlus />,
-       iconPosition: "start"
-    }
-    
-    export const WithIconEnd = Template.bind({});
-    WithIconEnd.args = {
-       variant: "primary",
-       children: "Icon",
-       icon: <BiPlus />,
-       iconPosition: "end"
-    }
+Esse arquivo utiliza a biblioteca storybook para gerar uma documentação dinâmica para o seu componente, mas é necessário configurá-la. Existem alguns exemplo no projeto de como um storybook configurado funciona.
 
-```
+**├─ Name.styled.ts**
+Esse arquivo é onde vai ficar a estilização do componente. Para fazer a estilização, estamos usando o styled(), do Material UI.  
+
+**├─  Name.test.ts** 
+ Neste arquivo vão se encontrar todos os testes para validar se o componente está funcionando corretamente. 
+
+**├─  Name.tsx** 
+Este arquivo é onde você vai escrever o seu componente em si 
+
+**└─  Name.types.ts**  
+Neste arquivo se encontra todas as tipagens que foram criadas por nós que foram usadas durante o componente
+ 
+### Como implementar
+Exemplo de implementação do component Button
+
+
+**Index.tsx** 
+
+![enter image description here](https://res.cloudinary.com/dgorwmjud/image/upload/v1647125872/Documenta%C3%A7%C3%A3o%20Opti/index-exports_l2aw2z.png)
+
+
+**Button.tsx**
+
+
+![enter image description here](https://res.cloudinary.com/dgorwmjud/image/upload/v1647126550/Documenta%C3%A7%C3%A3o%20Opti/button_component_v4db5n.png)
+
+
+**Button.styled.ts** 
+
+
+![enter image description here](https://res.cloudinary.com/dgorwmjud/image/upload/v1647126249/Documenta%C3%A7%C3%A3o%20Opti/styled_rhtgmn.png)
+
+
+**Button.Stories.tsx** 
+
+
+![enter image description here](https://res.cloudinary.com/dgorwmjud/image/upload/v1647126049/Documenta%C3%A7%C3%A3o%20Opti/stories_j4vmcj.png)
+ 
+
+
+**Button.test.ts**
+
+
+![enter image description here](https://res.cloudinary.com/dgorwmjud/image/upload/v1647126437/Documenta%C3%A7%C3%A3o%20Opti/test_xhn0gn.png)
+
+
+**Button.test.tsx**
+
+
+![enter image description here](https://res.cloudinary.com/dgorwmjud/image/upload/v1647126688/Documenta%C3%A7%C3%A3o%20Opti/testes_u4pzov.png)
+
 
 ## Documentação
 
--   [Storybook](https://storybook.js.org/) 
+-  [Plop](https://plopjs.com/) 
+-  Como estamos usando o Storybook ? Leia a sessão de [Components ](https://dev.azure.com/tecnologiaunica/OptiMarketing/_wiki/wikis/wiki/69/components)
 
 ## Duvidas
 
--   Manda mensagem no grupo do skype
+-   Interessante quebrar um pouco a cabeça pesquisando no google, youtube e documentação. 
+-  Após 30 minutos, manda mensagem no grupo do skype.
+
