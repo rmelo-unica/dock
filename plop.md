@@ -30,7 +30,9 @@ InputText
   **─ Index.ts**
   
 O arquivo index é o arquivo mais simples. Aqui, você simplesmente vai exportar o componente e a tipagem do mesmo para que seja mais fácil importar em outros arquivos
-**├─ Name.stories.tsx**
+**
+
+├─ Name.stories.tsx**
 
 Esse arquivo utiliza a biblioteca storybook para gerar uma documentação dinâmica para o seu componente, mas é necessário configurá-la. Existem alguns exemplo no projeto de como um storybook configurado funciona.
 
@@ -46,8 +48,7 @@ Este arquivo é onde você vai escrever o seu componente em si
 **└─  Name.types.ts**  
 Neste arquivo se encontra todas as tipagens que foram criadas por nós que foram usadas durante o componente
  
-### Como implementar
-Exemplo de implementação do component Button
+### Exemplo de implementação do component Button
 
 
 **Index.tsx** 
