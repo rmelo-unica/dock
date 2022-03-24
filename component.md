@@ -1,6 +1,6 @@
-# ComponentNameControl
+# Component 
 
-Component description 
+Descrição
 
 ## Guia de Desenvolvimento
 
