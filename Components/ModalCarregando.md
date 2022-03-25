@@ -1,4 +1,4 @@
-# Button 
+# ModalCarregando
 
 Componente construido com Material Ui e customizado de acordo com nosso design system.
 
@@ -16,14 +16,11 @@ Componente construido com Material Ui e customizado de acordo com nosso design s
 Como implementar
 
 ```js
-import { AvatarPerfil } from "components/AvatarPerfil";
+import { ModalCarregando } from "components/ModalCarregando";
 
-export function Exemplo() {
-    return (
-      <Button onClick={onClose}>
-          Texto
-          <Icone />
-      </Button >
+if (exemplo) return <ModalCarregando show />;
+
+
     )
 }
 ```
