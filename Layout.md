@@ -18,24 +18,22 @@ Componente construido com Material Ui e customizado de acordo com nosso design s
 Como implementar
 
 ```js
-import { AvatarPerfil } from "components/AvatarPerfil";
+import { Layout } from "components/Layout";
 
 export function Exemplo() {
-    return (
-      <Button onClick={onClose}>
-          Texto
-          <Icone />
-      </Button >
-    )
+   return (
+        <Layout>
+            <Router />
+            
+        </Layout>
 }
 ```
  
-
   
 ### Props
 
 - Children 
-- ButtonProps [Leia mais](https://mui.com/pt/components/buttons/)
+- LayoutProps
 
 **Nome e Tipo**
   
