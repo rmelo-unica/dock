@@ -19,20 +19,15 @@ Como implementar
 import { ModalCarregando } from "components/ModalCarregando";
 
 if (exemplo) return <ModalCarregando show />;
-
-
-    )
-}
 ```
  
 
   
 ### Props
 
-- Children 
-- ButtonProps [Leia mais](https://mui.com/pt/components/buttons/)
+- Open 
 
 **Nome e Tipo**
   
-- Children: React.ReactNode 
+-  Open: boolean;
  
