@@ -36,7 +36,7 @@ export function Exemplo() {
   
 - Children: React.ReactNode 
 - variant: "dark" | "light";
-- size?: "sm" | "md" | "lg";
-- className?: string;
+- size: "sm" | "md" | "lg";
+- className: string;
  
 
