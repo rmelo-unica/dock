@@ -16,7 +16,7 @@ Componente construido com Material Ui e customizado de acordo com nosso design s
 Como implementar
 
 ```js
-import { AvatarPerfil } from "components/AvatarPerfil";
+import { Button } from "components/Button";
 
 export function Exemplo() {
     return (
