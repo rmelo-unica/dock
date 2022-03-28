@@ -1,7 +1,7 @@
 # GraficosPalavraChave
 
-- [UAT](https://web.opti.marketing/palavras-chave/"564")
-- [Localhost](http://http://localhost:3000/palavras-chave/"564")
+- [UAT](https://web.opti.marketing/palavras-chave/:id)
+- [Localhost](http://http://localhost:3000/palavras-chave/:id)
  
 ## Requisitos funcionais
 
