@@ -63,16 +63,32 @@ No projeto já temos varios exemplos de uso.
 - Plop
  
 O Plop é uma lib de automação que gera nossos arquivos. Leia nossa documentação sobre ele aqui.   
-
-
-<hr>
-
-Sumario de Páginas
-
-* [Páginas]()
-
  
-* [Components]()
+
+## Sumario de Arquivos
+
+* [Páginas]() <- acesse a documentação das páginas
+- AlterarSenha.md
+- CancelarConta.md
+- Dashboard.md
+- DetalheArtigo.md
+- DicasOtimizacao.md
+- EdicaoProjeto.md
+- Financeiro.md
+- GerenciamentoColaboradores.md
+- GerenciamentoProjetos.md
+- GraficosPalavraChave.md
+- ListagemColaboradores.md
+- ListagemEmpresas.md
+- Login.md
+- NovaSenha.md
+- Pagamento.md
+- Perfil.md
+- RankingPalavraChave.md
+- TermosUso.md
+
+
+* [Components]() <-  acesse a documentação dos components
  
 - AvatarPerfil.md
 - Button.md
