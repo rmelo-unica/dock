@@ -8,6 +8,7 @@
 ## Requisitos funcionais
 
 - Usuario receberá por email o acesso para criar nova senha.
+- Terá os campos para nova senha e confirmar senha, botão para confirmar a mudançc.
 
 ## Pasta no projeto
 - src\pages\NovaSenha
