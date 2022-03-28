@@ -15,7 +15,7 @@
 
 ## Components especificos da página
 - Commonitems
- --ResultTabContent
+  -ResultTabContent
 - GradeItems
 
 ## Guia de Desenvolvimento
