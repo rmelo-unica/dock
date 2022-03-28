@@ -1,17 +1,15 @@
 
 # TermoUso
 
-- [UAT](https://web.opti.marketing/cadastro)
-- [Localhost](http://localhost:3000/cadastro)
+- [UAT](https://web.opti.marketing/termos-de-uso)
+- [Localhost](http://http://localhost:3000/termos-de-uso)
  
 ## Requisitos funcionais
 
 - Usuario tem acesso ao documento com os termos de uso da aplicação.
- 
 
 ## Pasta no projeto
 - src\pages\TermoUso
-
 
 ## Components especificos da página
 - ./
