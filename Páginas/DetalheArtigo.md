@@ -15,9 +15,9 @@
 
 ## Components especificos da página
 - Commonitems
---ResultTabContent
+ --ResultTabContent
 - GradeItems
-- 
+
 ## Guia de Desenvolvimento
 
 - 1.0 Ao criar uma nova pasta de página siga as seguinte padronização
