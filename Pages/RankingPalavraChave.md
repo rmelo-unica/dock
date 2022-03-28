@@ -1,15 +1,18 @@
 
-# TermoUso
+# RankingPalavraChave
 
 - [UAT](https://web.opti.marketing/termos-de-uso)
 - [Localhost](http://http://localhost:3000/termos-de-uso)
  
 ## Requisitos funcionais
 
-- Usuario tem acesso ao documento com os termos de uso da aplicação.
-
+- Deve apresentar para o usuário logado na plataforma uma tabela, com Posição, Palavra-chave, Volume, Tráfego, Favorita.
+- Sendo possível ao clicar na coluna desejada e ordena-la.
+- É possível favoritar a palavra clicando no ícone da coluna favorita.
+- Ao clicar em uma das palavras chave, ira direcionar ao gráfico apresentando os resultados de tráfego e posição.
+-   
 ## Pasta no projeto
-- src\pages\TermoUso
+- src\pages\RankingPalavraChave
 
 ## Components especificos da página
 - ./
