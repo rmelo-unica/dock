@@ -2,15 +2,15 @@
 
 # ListagemEmpresas
 
-- [UAT](https://web.opti.marketing/termos-de-uso)
-- [Localhost](http://http://localhost:3000/termos-de-uso)
+- [UAT](https://web.opti.marketing/empresas)
+- [Localhost](http://http://localhost:3000/empresas)
  
 ## Requisitos funcionais
 
-- Usuario tem acesso ao documento com os termos de uso da aplicação.
+- Como Usuário administrador, terá acesso para edição e adição de uma nova empresa.
 
 ## Pasta no projeto
-- src\pages\TermoUso
+- src\pages\ListagemEmpresas
 
 ## Components especificos da página
 - ./
