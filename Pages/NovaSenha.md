@@ -2,15 +2,15 @@
 
 # Nova Senha
 
-- [UAT](https://web.opti.marketing/termos-de-uso)
-- [Localhost](http://http://localhost:3000/termos-de-uso)
+- [UAT](https://web.opti.marketing/novaSenha)
+- [Localhost](http://http://localhost:3000/novaSenha)
  
 ## Requisitos funcionais
 
-- Usuario tem acesso ao documento com os termos de uso da aplicação.
+- Usuario receberá por email o acesso para criar nova senha.
 
 ## Pasta no projeto
-- src\pages\TermoUso
+- src\pages\NovaSenha
 
 ## Components especificos da página
 - ./
