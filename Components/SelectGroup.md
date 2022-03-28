@@ -8,11 +8,16 @@ Componente construido com Material Ui e customizado de acordo com nosso design s
  
 
 ## Pasta no projeto
-- src\components\SelectGroup
+- src\components\SelectGroup/Select
+- src\components\SelectGroup/MultiSelect
+- src\components\SelectGroup/Option
+
 
 ## Guia de Desenvolvimento
 
 ### Uso
+
+Existem páginas no projeto para pegar de base caso a documentação não seja o suficiente
 
 Como implementar
 
@@ -86,8 +91,14 @@ export function Exemplo() {
 ### Props
 
 - Children 
+- value
+- onChange
+- renderValue
  
 **Nome e Tipo**
   
 - Children: React.ReactNode 
+- value: string | number)[] 
+- onChange: string | number)[]) => void 
+- renderValue: <string | number>[] 
  
