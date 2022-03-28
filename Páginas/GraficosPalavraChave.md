@@ -1,14 +1,14 @@
-# TermoUso
+# GraficosPalavraChave
 
-- [UAT](https://web.opti.marketing/termos-de-uso)
-- [Localhost](http://http://localhost:3000/termos-de-uso)
+- [UAT](https://web.opti.marketing/palavras-chave/"564")
+- [Localhost](http://http://localhost:3000/palavras-chave/"564")
  
 ## Requisitos funcionais
 
-- Usuario tem acesso ao documento com os termos de uso da aplicação.
-
+- Usuario terá acesso ao gráfico com informações sobre tráfego e ranking da palavra chave escolhida na tabela de ranking de palavras chaves.
+- 
 ## Pasta no projeto
-- src\pages\TermoUso
+- src\pages\GraficosPalavraChave
 
 ## Components especificos da página
 - ./
