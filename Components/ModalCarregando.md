@@ -4,7 +4,7 @@ Componente construido com Material Ui e customizado de acordo com nosso design s
 
 ## Requisitos funcionais
 
-- Deve ser possivel criar um botão e passar texto e/ ou icones atráves de prop. Este componente herda props de ButtonProps que tras tipagem das funções onChange, OnClick e muitos outros. 
+- Deve ser exibida em quanto aguarda carregamento das telas.
 
 ## Pasta no projeto
 - src\components\ModalCarregando
