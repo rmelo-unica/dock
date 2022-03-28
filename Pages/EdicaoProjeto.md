@@ -5,7 +5,7 @@
  
 ## Requisitos funcionais
 
-- Usuario empresa deve conseguir gerenciar os projetos cadastrados.
+- Usuario empresa deve conseguir editar um projeto.
  
 
 ## Pasta no projeto
