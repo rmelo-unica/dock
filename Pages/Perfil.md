@@ -1,15 +1,17 @@
 
 # Perfil
 
-- [UAT](https://web.opti.marketing/termos-de-uso)
-- [Localhost](http://http://localhost:3000/termos-de-uso)
+- [UAT](https://web.opti.marketing/perfil)
+- [Localhost](http://http://localhost:3000/perfil)
  
 ## Requisitos funcionais
 
-- Usuario tem acesso ao documento com os termos de uso da aplicação.
+- Usuario tem acesso a tela de edição de perfil.
+- Contém os formulários de Nome, Email e Senha.
+
 
 ## Pasta no projeto
-- src\pages\TermoUso
+- src\pages\Perfil
 
 ## Components especificos da página
 - ./
