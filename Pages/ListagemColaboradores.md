@@ -1,15 +1,15 @@
 
 # ListagemColaboradores
 
-- [UAT](https://web.opti.marketing/termos-de-uso)
-- [Localhost](http://http://localhost:3000/termos-de-uso)
+- [UAT](https://web.opti.marketing/colaboradores)
+- [Localhost](http://http://localhost:3000/colaboradores)
  
 ## Requisitos funcionais
 
-- Usuario tem acesso ao documento com os termos de uso da aplicação.
+- Como Usuário empresa, terá acesso para edição e adição de um novo colaborador.
 
 ## Pasta no projeto
-- src\pages\TermoUso
+- src\pages\ListagemColaboradores
 
 ## Components especificos da página
 - ./
