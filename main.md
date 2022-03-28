@@ -67,8 +67,22 @@ O Plop é uma lib de automação que gera nossos arquivos. Leia nossa documenta�
 
 <hr>
 
-Antes de começar a mexer no projeto leia:
+Sumario de Páginas
+
+* [Páginas]()
+
  
-* [Components](https://reactjs.org/docs/hello-world.html)
-* [Páginas](https://reactjs.org/docs/jsx-in-depth.html)
+* [Components]()
+ 
+- AvatarPerfil.md
+- Button.md
+- DataGrid.md
+- Inputs.md
+- Layout.md
+- Logo.md
+- ModalCarregando.md
+- PageContainer.md
+- PageTitle.md
+- SelectGroup.md 
+- Utils.md
  
