@@ -10,7 +10,7 @@ Componente construido com Material Ui e customizado de acordo com nosso design s
 
 
 ## Pasta no projeto
-- src\components\DataGrid 
+- src\components\SelectGroup
 
 ## Guia de Desenvolvimento
 
