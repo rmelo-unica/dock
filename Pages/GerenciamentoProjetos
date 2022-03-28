@@ -1,7 +1,7 @@
-# EdicaoProjeto
+# GerenciamentoProjetos
 
-- [UAT](https://web.opti.marketing/EdicaoProjeto)
-- [Localhost](http://localhost:3000/EdicaoProjeto)
+- [UAT](https://web.opti.marketing/GerenciamentoProjetos)
+- [Localhost](http://localhost:3000/GerenciamentoProjetos)
  
 ## Requisitos funcionais
 
@@ -9,14 +9,12 @@
  
 
 ## Pasta no projeto
-- src\pages\EdicaoProjeto
+- src\pages\GerenciamentoProjetos
 
 
 ## Components especificos da página
-- CardColaboradores
-- CardUltimasAtualizacoesArtigos
-- CardUsuarioWordpress
-- FormEdicaoUsuarioWordpress
+- FormCriacaoUsuarioWordpress/
+
 
 ## Guia de Desenvolvimento
 
