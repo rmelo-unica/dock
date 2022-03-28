@@ -5,14 +5,20 @@
  
 ## Requisitos funcionais
 
-- Usuarios do tipo empresa e colaborador devem conseguir vizualizar a dashboard do projeto setado no dropdown
+- Usuarios do tipo empresa e colaborador devem conseguir vizualizar a dashboard do projeto.
+- Deve haver um dropdown com a listagem dos projetos e deve ser possivel buscar por projeto.
+- Na dashboard os usuarios devem poder ver graficos, estaticas e uma tabela de palavras-chave.
 
 ## Pasta no projeto
-- src\pages\AlterarSenha
+- src\pages\Dashboard
 
 
 ## Components especificos da página
-- ./
+├─FontesTrafego.tsx
+├─GraficoClimb.tsx
+├─GraficoPosicao.tsx
+├─HistoricoTrafego.tsx
+└─PalavrasChaveTabs.tsx
 
 ## Guia de Desenvolvimento
 
