@@ -39,12 +39,10 @@ npm run gen NomeDoPage
  
  
 # Dicas de leitura:
-- Plop
-- Material UI
-- Jest
-- Typescript
-- React
-- React Query
+- [Guia de Desenvolvimento e Sumário](https://github.com/rmelo-unica/#readme)
+- [Plop](https://github.com/rmelo-unica/dock/blob/main/plop.md)
+- [Material UI](https://mui.com/pt/)
+- [Components](https://github.com/rmelo-unica/dock/tree/main/Components) 
 
 
 
