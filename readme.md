@@ -67,7 +67,7 @@ O Plop é uma lib de automação que gera nossos arquivos. Leia nossa documenta�
 
 ## Sumario de Arquivos
 
-* [Páginas]() <- acesse a documentação das páginas
+* [Páginas](https://github.com/rmelo-unica/dock/tree/main/Pages#readme) <- acesse a documentação das páginas
 - AlterarSenha.md
 - CancelarConta.md
 - Dashboard.md
@@ -88,7 +88,7 @@ O Plop é uma lib de automação que gera nossos arquivos. Leia nossa documenta�
 - TermosUso.md
 
 
-* [Components]() <-  acesse a documentação dos components
+* [Components](https://github.com/rmelo-unica/dock/blob/main/Components/README.md) <-  acesse a documentação dos components
  
 - AvatarPerfil.md
 - Button.md
