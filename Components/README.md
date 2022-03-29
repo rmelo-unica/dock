@@ -10,7 +10,7 @@ Para criar um novo component no projeto, execute o seguinte comando:
 npm run gen NomeDoComponent
 
 ### Logo após digite C:
-? component digite: (C || page digite: P) C
+? component digite: (C) || page digite: (P) C
 
 ```
 
