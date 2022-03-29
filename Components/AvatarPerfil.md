@@ -1,7 +1,5 @@
 # AvatarPerfil 
 
-Componente do Material Ui de facil implementação para mostrar a foto do perfil do usuario com ou sem icone.
-
 ## Requisitos funcionais
 
 - Deve ser possivel adicionar uma imagem no avatar.
