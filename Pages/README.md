@@ -10,7 +10,7 @@ Para criar uma nova página, no projeto, execute o seguinte comando:
 npm run gen NomeDoPage
 
 ### Logo após digite P:
-? component digite: (C || page digite: P) P
+? component digite: (C) || page digite: (P) P 
 
 ```
 
