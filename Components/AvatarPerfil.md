@@ -1,5 +1,7 @@
 # AvatarPerfil 
 
+Componente construido com Material Ui e customizado de acordo com nosso design system.
+ 
 ## Requisitos funcionais
 
 - Deve ser possivel adicionar uma imagem no avatar.
