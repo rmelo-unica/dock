@@ -6,11 +6,11 @@
  
 ## Requisitos funcionais
 
-- Deve apresentar para o usuário logado na plataforma uma tabela, com Posição, Palavra-chave, Volume, Tráfego, Favorita.
+- Deve apresentar para o usuário logado na plataforma uma tabela, com Posição, Palavra-chave, Volume, Tráfego e Favorita.
 - Sendo possível ao clicar na coluna desejada e ordena-la.
 - É possível favoritar a palavra clicando no ícone da coluna favorita.
 - Ao clicar em uma das palavras chave, ira direcionar ao gráfico apresentando os resultados de tráfego e posição.
--   
+   
 ## Pasta no projeto
 - src\pages\RankingPalavraChave
 
