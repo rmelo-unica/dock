@@ -30,14 +30,11 @@ npm run gen NomeDoComponent
 - [├─Utils/](https://github.com/rmelo-unica/dock/blob/main/Components/Utils.md) 
  
  
-# Dicas de leitura:
-- Pages
-- Plop
-- Material UI
-- Jest
-- Typescript
-- React
-- React Query
+# Mais da documentação:
+- [Pages](https://github.com/rmelo-unica/dock/tree/main/Pages#readme)
+- [Plop](https://github.com/rmelo-unica/dock/blob/main/plop.md)
+- [Material UI](https://mui.com/pt/)
+ 
 
 
 
