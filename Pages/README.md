@@ -39,7 +39,7 @@ npm run gen NomeDoPage
  
  
 # Dicas de leitura:
-- [Guia de Desenvolvimento e Sumário](https://github.com/rmelo-unica/#readme)
+- [Guia de Desenvolvimento](https://github.com/rmelo-unica/dock)
 - [Plop](https://github.com/rmelo-unica/dock/blob/main/plop.md)
 - [Material UI](https://mui.com/pt/)
 - [Components](https://github.com/rmelo-unica/dock/tree/main/Components) 
