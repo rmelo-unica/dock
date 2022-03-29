@@ -13,7 +13,13 @@
 
 
 ## Components especificos da página
-- ./
+- |─Card/
+- ├─ContinuarCadastro/
+- ├─EtapaCriarConta/
+- ├─EtapaPagamento/
+- ├─EtapaPlanoPersonalizado/
+- ├─EtapaRevisao/
+- ├─PagamentoFundo/
 
 ## Guia de Desenvolvimento
 
